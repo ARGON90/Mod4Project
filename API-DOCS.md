@@ -1308,8 +1308,8 @@ Delete an existing image.
 * Require Authentication: true
 * Require proper authorization: Image must belong to the current user
 * Request
-  * Method: ?
-  * URL: ?
+  * Method: DELETE
+  * URL: /spots/:spotId/images/:imageId
   * Body: none
 
 * Successful Response
