@@ -3,7 +3,18 @@
 ## Route Summary
 ---
 ---
-## Routes starting with /users
+## /login ROUTES
+### Log In a User
+- POST /login
+---
+
+---
+## /signup ROUTES
+### Sign Up a User
+- POST /signup
+---
+---
+## /users ROUTES
 ### Get the current user
 - GET /users/:userId
 ### Spots feature - get all spots owned by current user
@@ -14,18 +25,7 @@
 - GET/users/bookings
 ---
 ---
-## Routes starting with /login
-### Log In a User
-- POST /login
----
-
----
-## Routes starting with /signup
-### Sign Up a User
-- POST /signup
----
----
-## Routes starting with /spots
+## /spots ROUTES
 ### Spots feature - Get all spots
 - GET /spots
 ### Spots feature - Get details of spot from an Id
@@ -53,3 +53,9 @@
 ### Booking feature - delete a booking
 - DELETE /spots/:spotId/bookings/:bookingId
 ### Image feature - add image to spot based on id
+- POST /spots/:spotId/images
+### Image feature: Add an image to a review based on the review's id
+- POST /spots/:spotId/reviews/:reviewId/images
+### Image feature: Delete an existing image
+- DELETE /spots/:spotId/images/:imageId
+---
