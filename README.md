@@ -50,6 +50,6 @@
 - POST /spots/:spotId/bookings
 ### Booking feature - edit a booking
 - PUT /spots/:spotId/bookings/:bookingId
-## Booking feature - delete a booking
+### Booking feature - delete a booking
 - DELETE /spots/:spotId/bookings/:bookingId
-## Image feature - add image to spot based on id
+### Image feature - add image to spot based on id
