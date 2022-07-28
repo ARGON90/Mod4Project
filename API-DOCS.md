@@ -1,10 +1,12 @@
-# `<name of application here>`
+# Air bee & bee
 
 ## Database Schema Design
 
 `<insert database schema design here>`
 
 ## API Documentation
+## ** Summary can be found in README **
+---
 
 ## FEATURE 0: USER AUTHORIZATION
 
