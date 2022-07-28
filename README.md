@@ -1,5 +1,8 @@
 # Route Summary
 ---
+## DB diagram
+![image](https://user-images.githubusercontent.com/54010874/181630481-745b71e4-5d98-4c73-a785-2d5fc3f8bbb1.png)
+
 ---
 ## Users Routes (/users)
 ### Sign Up a User
